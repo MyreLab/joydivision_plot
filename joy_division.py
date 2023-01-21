@@ -1,9 +1,4 @@
 
-#Sources:
-# Mike Bostock: https://observablehq.com/@mbostock/psr-b1919-21
-# R on datawookie: https://www.r-bloggers.com/2019/07/recreating-unknown-pleasures-graphic/
-# Igor Oliveira: https://github.com/igorol/unknown_pleasures_plot 
-
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -12,8 +7,14 @@ vertical_margin = 20
 horizontal_margin = 20
 x_size = 30
 y_size = 30
+
+#line width
 linewidth = 4
+
+#source dataset
 src = 'https://gist.githubusercontent.com/borgar/31c1e476b8e92a11d7e9/raw/0fae97dab6830ecee185a63c1cee0008f6778ff6/pulsar.csv'
+
+#plot name
 joydiv='joydiv_plot.png'
 
 #use grayscale theme
